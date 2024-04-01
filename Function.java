@@ -1,0 +1,18 @@
+package task;
+import java.util.Scanner;
+public class Function {  
+    public static void main(String[] args) {  
+        Scanner scanner = new Scanner(System.in);  
+          
+        System.out.print("Enter a number: ");  
+        int num1 = scanner.nextInt();  
+          
+        System.out.print("Enter another number: ");  
+        int num2 = scanner.nextInt();  
+        int sum = add(num1, num2);  
+        System.out.println("sum is " + sum + ".");  
+    }
+        public static int add(int a, int b) {  
+        return a + b;  
+    }  
+}  
